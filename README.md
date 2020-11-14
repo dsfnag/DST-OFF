@@ -1,1 +1,1 @@
-# DST-OFF
+# Django Dashboard - решение для хакатона
