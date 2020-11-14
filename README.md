@@ -1,1 +1,1 @@
-# GPB Dashboard - решение для хакатонf
+# GPB Dashboard - решение для хакатона
