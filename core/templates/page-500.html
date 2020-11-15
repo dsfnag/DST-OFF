@@ -1,0 +1,39 @@
+{% extends 'layouts/base-fullscreen.html' %}
+
+{% block title %} Ошибка 500 {% endblock title %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- Page content -->
+    <div class="container mt--8 pb-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-5 col-md-7">
+          <div class="card bg-secondary shadow border-0">
+            <div class="card-header bg-transparent pb-5">
+
+              <div class="text-muted text-center mt-2 mb-3">
+                Ошибка 500      
+              </div>
+
+              <div class="text-center mb-4">
+                Ошибка сервера - <br><a href="/">Перейти на главную страницу</a>
+              </div>
+
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-6">
+              <a href="/" class="text-light"><small>Перейти на главную страницу</small></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE --> 
+{% block javascripts %}{% endblock javascripts %}
